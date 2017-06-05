@@ -63,7 +63,6 @@ public class Author {
     public int hashCode() {
         int result = name != null ? name.hashCode() : 0;
         result = 31 * result + (int) age;
-        result = 31 * result + (books != null ? books.hashCode() : 0);
         return result;
     }
 

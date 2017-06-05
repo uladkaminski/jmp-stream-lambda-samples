@@ -14,6 +14,5 @@ public class Main {
 
         Author[] authors = initialParamsGenerator.getAuthors();
         Book[] books = initialParamsGenerator.getBooks();
-
     }
 }
